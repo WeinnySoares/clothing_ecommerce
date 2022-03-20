@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    font: 400 12px Poppins, sans-serif;
+    line-height: 18px;
+    background-color: #450887;
+    width: 100%;
+    height: 44px;
+    padding-top: 13px;
+    padding-left: 80px;
+}
+nav a{
+    margin-right: 18px;
+    text-decoration: none;
+    color: #9D85C1;
+}
+
+.logo{
+    background-color: #5F12B6;
+    width: 100%;
+    height: 78px;
+    padding-top: 17.77px;
+    padding-bottom: 20.92px;
+    text-align: center;
+}
+
+.title{
+    font: 400 14px Poppins, sans-serif;
+    line-height: 18px;
+    background: #FFFFFF;
+    position: absolute;
+    color: #B5B5B5;
+    width: 100%;
+    height: 141px;
+    padding-top: 28px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.title .row{
+    margin-bottom: 28px;
+}
+
+.title h1{
+    color:black;
+}
+
+.title h1 img{
+    margin-right: 12px;
+}
+
+main .content{
+    padding-top: 148px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding: 148px  80px 44.12px 80px;
+}
+body{
+    background-color: #FAFAFA;
+}
+
+button{
+    font: 500 14px Poppins, sans-serif;
+    background-color: #3F0B6D;
+    Line-height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 4px;
+    border-spacing: 0;
+    padding: 10px 16px;
+    border: 0px;
+}
+
+button:hover{
+    filter: brightness(90%);
+}

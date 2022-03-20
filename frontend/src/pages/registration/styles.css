@@ -1,0 +1,221 @@
+.registration-container main .content{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.2px;
+    color: #222222;
+    text-decoration: none;
+}
+
+.registration-container main .content .row{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 72px;
+    margin-bottom: 57px;
+    width: 571px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.registration-container main .content h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #3F0B6D;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    width:571px;
+}
+
+.registration-container .content form{
+    display: flex;
+    flex-wrap: wrap;
+    width:571px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.registration-container .content form .input-group{
+    display: flex;
+    justify-content:space-between;
+    width:571px;
+}
+
+.registration-container .content form .input-group .product-name{
+    display: block;
+    padding: 8px 12px;
+    width: 308px;
+    height: 36px;
+    margin-top: 7px;
+    border: 1px solid #C5C5C5;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.registration-container .content form .input-group .product-price{
+    display: block;
+    padding: 8px 12px;
+    width: 196px;
+    height: 36px;
+    margin-top: 7px;
+    margin-bottom: 25px;
+    border: 1px solid #C5C5C5;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.registration-container .content form .row-img {
+    width: 100%;
+}
+.registration-container .content form .row-img .img-group{
+    display: flex;
+    justify-content:space-between;
+    width: 196px;
+}
+.registration-container .content form .img-group input{
+    display: none;
+}
+.registration-container .content form .img-group label{
+    border: 0.8px solid #C8C8C8;
+    height: 46px;
+    width: 35px;
+    margin-bottom: 24px;
+    background-image: url('../../assets/icones/img-icon.svg');
+    background-position: 6px 13px;
+    background-repeat: no-repeat;
+}
+.registration-container .content .description{
+    width:  100%;
+}
+
+.registration-container form .description textarea{
+    display:block;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    width:  100%;
+    padding: 24px, 16px, 24px, 16px;
+    border: 1px solid #C5C5C5;
+    box-sizing: border-box;
+    border-radius: 3px;
+}                 
+
+.registration-container form .size {
+    width: 100%;
+}
+
+.registration-container form .size .size-group {
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.registration-container form .size .size-group div {
+    text-align: center;
+    margin-right: 12px;
+}
+
+.registration-container form .size .size-group span{
+    display: block;
+    width: 100%;
+    margin-right: 12px;
+    text-align: center;
+    background: #3F0B6D;
+    border: 1px solid #C5C5C5;
+    box-sizing: border-box;
+    color:#FFF;
+    padding: 10px;
+    height: 33px;
+}
+
+.registration-container .button-plus{
+    width: 21.5px;
+    height: 21.5px;
+    margin: 4px;
+    color: #3F0B6D;
+    background: #FFFFFF;
+    border: 0.7px solid #F3F2F2;
+    box-sizing: border-box; 
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    padding: 4px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.registration-container .button-minus{
+    width: 21.5px;
+    height: 21.5px;
+    margin: 4px;
+    color: #3F0B6D;
+    background: #FFFFFF;
+    border: 0.7px solid #F3F2F2;
+    box-sizing: border-box; 
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    padding: 4px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.registration-container .button-plus a{ 
+    text-decoration: none;
+}
+
+.registration-container .colors{
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.registration-container .colors-group{
+    display: flex;
+    margin-top: 8px;
+}
+
+.registration-container .item{
+    width: 32px;
+    height: 43px;
+    background: #FFFFFF;
+    border: 1px solid #F3F2F2;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-align: center;
+    padding: 5px;
+    margin-right: 8px;
+}
+
+.registration-container .color{
+    display: block;
+    width: 21.5px;
+    height: 21.5px;
+    border-radius: 10px;
+}
+
+.registration-container .quantities{
+    display: flex;
+}
+
+.registration-container .item-quantity{
+    display: flex;
+    margin: 8px 16px 0 0;
+}
+.registration-container .item-quantity .size{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.registration-container .item-quantity .quantity{
+    color: #3F0B6D;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}

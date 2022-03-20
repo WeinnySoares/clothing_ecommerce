@@ -1,0 +1,81 @@
+
+.manager-container main .title {
+    display:flex;
+    justify-content:space-between;
+}
+.manager-container main .title h1{
+    margin-bottom: 6px;
+}
+.manager-container  main .title div button{
+    margin-top: 31px;
+}
+.manager-container main .content {
+    font: 400 10px Poppins, sans-serif;
+}
+.manager-container main .content .div-search{
+    text-align:center;
+    margin: 40px 0;
+}
+.manager-container .content .row .search {
+    width: 415px;
+    height: 45px;
+    float: center;
+    background-image: url('../../assets/icones/icon-pesquisar.svg');
+    background-position: 12px 13px;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px; 
+    text-indent: 40px; 
+}
+
+.manager-container .content .products{
+    margin: 0 260px;
+}
+
+.manager-container .content .products article{
+    width: 613px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    color: #707070;
+    display: flex;
+    justify-content: space-between;
+    background: #FAFAFA;
+    border: 1px solid #E9E9E9;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.manager-container .info img {
+    height: 47px;
+    margin-left: 9px;
+    margin-top: 9px;
+    border: 0.8px solid #C8C8C8;
+}
+
+article .action img{
+    margin: 21px 21px 21px;
+}
+
+.manager-container .info{
+    display: flex;
+}
+.manager-container .info div{
+    margin: 9px;
+}
+.manager-container main .content .view-more{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 34px;
+   
+}
+
+.manager-container main .content a{
+    font-family: Roboto;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}

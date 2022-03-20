@@ -1,0 +1,54 @@
+.vitrine-container .content {
+    font: 500 16px Roboto, sans-serif;
+    line-height: 18px;
+}
+.vitrine-container .content .row{
+    margin-top: 40px;
+    display: flex;
+    color: #3F0B6D;
+}
+
+.vitrine-container .content .row span{
+    width: 110px;
+    text-align: center;
+    padding-bottom: 8.5px;
+    border-bottom: 1px solid #3F0B6D;; 
+}
+
+.vitrine-container .content .row .div-search{
+    margin: auto;   
+}
+
+.vitrine-container .content .row .search {
+    width: 415px;
+    height: 45px;
+    float: center;
+    background-image: url('../../assets/icones/icon-pesquisar.svg');
+    background-position: 12px 13px;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px; 
+    text-indent: 40px; 
+}
+
+.vitrine-container  .content .collection{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.vitrine-container .content .collection article{
+    width: 309px;
+    height: 454px;
+    text-align: center;
+
+}
+.vitrine-container .content .collection article span{
+    display: block;
+    margin-top: 15px;
+}
+.vitrine-container .content .collection article .price{
+    color:#3F0B6D;
+}
